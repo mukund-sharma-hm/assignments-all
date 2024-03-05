@@ -1,0 +1,8 @@
+__main__ monitor_app, 2024-03-05, 11:22:19, {'args': ('notepad.exe', 2), 'kwargs': {}},Execution time: 0.5731 seconds
+__main__ fibonacci, 2024-03-05, 11:23:42, {'args': (14,), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ fibonacci, 2024-03-05, 11:24:08, {'args': (200,), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ fibonacci, 2024-03-05, 11:24:27, {'args': (1231231231,), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ reverse_string, 2024-03-05, 15:18:14, {'args': ('hello there',), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ sq_even_numbers, 2024-03-05, 16:30:56, {'args': (2,), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ sq_even_numbers, 2024-03-05, 16:41:27, {'args': (5,), 'kwargs': {}},Execution time: 0.0000 seconds
+__main__ top_three_characters, 2024-03-05, 17:21:07, {'args': ('hello',), 'kwargs': {}},Execution time: 0.0000 seconds

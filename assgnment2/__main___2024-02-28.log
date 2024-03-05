@@ -1,0 +1,6 @@
+__main__ fake_employee_data, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {}}
+__main__ get_emp_with_max_salary, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {}}
+__main__ business_unit_with_highest_aggregated_salary, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {}}
+__main__ employee_with_highest_salary_per_bu, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {}}
+__main__ delete_employee_with_least_salary, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {}}
+__main__ update_employee_salary, 2024-02-28, 15:30:12, {'args': (), 'kwargs': {'emp_id': '8d1935bd-593a-4cfe-9e71-bb9b96f93022', 'new_salary': 75000}}
