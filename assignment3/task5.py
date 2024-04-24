@@ -1,5 +1,6 @@
 """to delete employee and create seperate json to store data and raise salary for finance"""
 import json
+from config import employee_json
 
 
 def delete_employee(employee_id, employee_file, terminated_file):
@@ -19,6 +20,7 @@ def delete_employee(employee_id, employee_file, terminated_file):
     with open(employee_file, 'w', encoding='utf-8') as f:
         json.dump(employee_data, f, indent=4)
 
+
 def apply_salary_hike(business_unit, hike_percentage, employee_file):
     """Function to apply salary hike based on business unit"""
 
@@ -33,13 +35,14 @@ def apply_salary_hike(business_unit, hike_percentage, employee_file):
     with open(employee_file, 'w', encoding='utf-8') as f:
         json.dump(employee_data, f, indent=4)
 
+
 if __name__ == "__main__":
 
     try:
-        delete_employee('d85a2486-aad1-41a1-bf96-94a54f56c3cc', "task 4 and 5\\Employee_Personal_Details.json", 'task 4 and 5\\terminated_employees.json')
+        delete_employee('d85a2486-aad1-41a1-bf96-94a54f56c3cc', employee_json, 'terminated_employees.json')
         print("Employee terminated successfully.")
     except ValueError as e:
         print(e)
 
-    apply_salary_hike('Finance', 10, "task 4 and 5\\Employee_Personal_Details.json")
+    apply_salary_hike('Finance', 10, employee_json)
     print("Salary hiked")
