@@ -1,6 +1,7 @@
 import openpyxl
 from Task1 import day_details
 
+@decorator.logger
 def write_to_excel(day_details):
     wb = openpyxl.Workbook()
     ws = wb.active
