@@ -2,6 +2,7 @@ from tabulate import tabulate
 from Task1 import day_details
 
 # Task 2
+@decorator.logger
 def print_table(day_details):
     """function to tabulate the data from dictionary"""
     headers = ["Name of the Day",
