@@ -19,7 +19,7 @@ def aggregate_employee_data(input_file, output_file):
         json.dump(aggregated_data, f, indent=4)
 
 if __name__ == "__main__":
-    INPUT = "task 4 and 5\\Employee_Personal_Details.json"
-    OUTPUT = "task 4 and 5\\Aggregated_Employee_Data.json"
+    INPUT = "Employee_Personal_Details.json"
+    OUTPUT = "Aggregated_Employee_Data.json"
     aggregate_employee_data(INPUT, OUTPUT)
     print(f"Aggregated employee data saved to {OUTPUT}")
